@@ -69,9 +69,6 @@ public class CustomerServiceImpl implements CustomerService {
 
 
 
-            ImageDto imageDto = new ImageDto();
-            imageDto.setImageName(this.imageNameList(customer));
-            imageDto.setEncodedImage((this.imageEncodedList(customer)));
 
             try {
                 String folderName="images";
@@ -82,72 +79,42 @@ public class CustomerServiceImpl implements CustomerService {
                 Files.createDirectories(path );
 
 
-//For Checking image is exist or not
-            List<String> imageAbsolutePaths = new ArrayList<>();
-
-                imageAbsolutePaths.add(path+ File.separator + imageDto.getImageName().get(0));
-                imageAbsolutePaths.add(path + File.separator + imageDto.getImageName().get(1));
-                imageAbsolutePaths.add(path + File.separator + imageDto.getImageName().get(2));
-                imageAbsolutePaths.add(path + File.separator + imageDto.getImageName().get(3));
-
-
 //for saving image path to database
                 String relativePath = "/"+folderName +"/" +customer.getCustomerId();
+                FileOutputStream fos1 = new FileOutputStream(path.toString()+File.separator+"citizenshipFront");
+                byte[] citizenFront = Base64.getMimeDecoder().decode(customer.getCitizenshipFrontEncodedImage());
+                fos1.write(citizenFront);
+                fos1.close();
 
-                List<String> imageRelativePaths = new ArrayList<>();
-                imageRelativePaths.add(relativePath + "/"+ imageDto.getImageName().get(0));
-                imageRelativePaths.add(relativePath + "/" + imageDto.getImageName().get(1));
-                imageRelativePaths.add(relativePath + "/" + imageDto.getImageName().get(2));
-                imageRelativePaths.add(relativePath + "/"+ imageDto.getImageName().get(3));
+                FileOutputStream fos2 = new FileOutputStream(path.toString()+File.separator+"citizenshipBack");
+                byte[] citizenBack = Base64.getMimeDecoder().decode(customer.getCitizenshipBackEncodedImage());
+                fos2.write(citizenBack);
+                fos2.close();
 
-                imageDto.setImagePath(imageRelativePaths);
+                if(customer.getPassportEncodedImage()!=null){
 
-                for (String imageAbsolutePath : imageAbsolutePaths) {
-                    File directory = new File(imageAbsolutePath);
-                    if (directory.exists()) {
-
-                        int index = imageRelativePaths.get(imageAbsolutePaths.indexOf(imageAbsolutePath)).lastIndexOf(".");
-                        String onlyImagePath = "";
-                        String onlyImagePathExtension = "";
-                        if (index > 0) {
-                            onlyImagePath = imageRelativePaths.get(imageAbsolutePaths.indexOf(imageAbsolutePath)).substring(0, index);
-                            onlyImagePathExtension = imageRelativePaths.get(imageAbsolutePaths.indexOf(imageAbsolutePath)).substring(index + 1);
-                        }
-
-
-                        int i = 1;
-                        while (true) {//until satisfy following condition
-
-                            String newImagePath = onlyImagePath.toString() + "(" + (i) + ")" + "." + onlyImagePathExtension.toString();
-                            File newImageDirectory = new File(newImagePath);
-
-                            if (!newImageDirectory.exists()) {
-
-                                FileOutputStream fos = new FileOutputStream(newImagePath);
-                                byte[] barr = Base64.getMimeDecoder().decode(imageDto.getEncodedImage().get(imageAbsolutePaths.indexOf(imageAbsolutePath)));//image dto used only here
-                                imageDto.getImagePath().set(imageAbsolutePaths.indexOf(imageAbsolutePath),newImagePath);
-                                fos.write(barr);
-                                fos.close();
-                              break;
-                            }
-                            i++;
-                        }
-
-                    } else {
-
-                        FileOutputStream fos = new FileOutputStream(imageAbsolutePath);
-                        byte[] barr = Base64.getMimeDecoder().decode(imageDto.getEncodedImage().get(imageAbsolutePaths.indexOf(imageAbsolutePath)));//image dto used only here
-                        fos.write(barr);
-                        fos.close();
-                    }
+                    FileOutputStream fos3 = new FileOutputStream(path.toString()+File.separator+"passport");
+                byte[] passport = Base64.getMimeDecoder().decode(customer.getPassportEncodedImage());
+                fos3.write(passport);
+                fos3.close();
                 }
-                customer.setCitizenshipFrontImagePath(imageDto.getImagePath().get(0));
-                customer.setCitizenshipBackImagePath(imageDto.getImagePath().get(1));
-                customer.setPassportImagePath(imageDto.getImagePath().get(2));
-                customer.setProfileImagePath(imageDto.getImagePath().get(3));
+                FileOutputStream fos4 = new FileOutputStream(path.toString()+File.separator+"profile");
+                byte[] profile = Base64.getMimeDecoder().decode(customer.getProfileEncodedImage());
+                fos4.write(profile);
+                fos4.close();
+
+
+                customer.setCitizenshipFrontImagePath(relativePath+"/"+"citizenshipFront");
+                customer.setCitizenshipBackImagePath(relativePath+"/"+"citizenshipBack");
+                if(customer.getPassportEncodedImage()!=null) {
+                    customer.setPassportImagePath(relativePath + "/" + "passport");
+                }
+                    customer.setPassportImagePath(relativePath + "/" + "passport");
+
+                customer.setProfileImagePath(relativePath+"/"+"profile");
 
             } catch (Exception e) {
-                throw new Base64Conversion("Image uploaded error occurred: " + e.toString());
+                throw new Base64Conversion("Image uploaded error occurred: " + e.getMessage());
 
             }
             customerRepository.save(customer);
