@@ -56,24 +56,20 @@ private Address permanentAddress;
     @NotNull @NotEmpty @NotBlank
     private String grandFatherName;
     @NotNull @NotEmpty @NotBlank
+    private String documentType;
 
     private String citizenshipNumber;
-    private String citizenshipFrontImageName;
 
     private String citizenshipFrontEncodedImage;
     private String citizenshipFrontImagePath;
 
-    private String citizenshipBackImageName;
     private String citizenshipBackEncodedImage;
     private String citizenshipBackImagePath;
 
-    private ImageDto imageDto;//only used for all file write
     private String passportNumber;
-    private String passportImageName;
     private String passportEncodedImage;
     private String passportImagePath;
 
-    private String profileImageName;
     private String profileEncodedImage;
     private String profileImagePath;
 

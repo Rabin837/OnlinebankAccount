@@ -4,6 +4,7 @@ package com.bitskraft.bankaccountmock.serviceImpl;
 import com.bitskraft.bankaccountmock.customerexception.AlreadyExist;
 import com.bitskraft.bankaccountmock.customerexception.Base64Conversion;
 import com.bitskraft.bankaccountmock.customerexception.EntityNotFound;
+import com.bitskraft.bankaccountmock.customerexception.FieldNotEmpty;
 import com.bitskraft.bankaccountmock.dto.*;
 import com.bitskraft.bankaccountmock.dto.response.BaseResponse;
 import com.bitskraft.bankaccountmock.entity.*;
@@ -20,8 +21,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -71,46 +70,59 @@ public class CustomerServiceImpl implements CustomerService {
 
 
             try {
-                String folderName="images";
+                String folderName = "images";
 
                 //Creating new directory for storing images
-                String absolutePath = System.getProperty("user.dir") + File.separator +folderName;
-                Path path =Paths.get(absolutePath+ File.separator +customer.getCustomerId());
-                Files.createDirectories(path );
+                String absolutePath = System.getProperty("user.dir") + File.separator + folderName;
+                Path path = Paths.get(absolutePath + File.separator + customer.getCustomerId());
+                Files.createDirectories(path);
 
 
 //for saving image path to database
-                String relativePath = "/"+folderName +"/" +customer.getCustomerId();
-                FileOutputStream fos1 = new FileOutputStream(path.toString()+File.separator+"citizenshipFront");
-                byte[] citizenFront = Base64.getMimeDecoder().decode(customer.getCitizenshipFrontEncodedImage());
-                fos1.write(citizenFront);
-                fos1.close();
+                String relativePath = "/" + folderName + "/" + customer.getCustomerId();
+                if (customer.getDocumentType().equals("citizenship")) {
+                    if (customer.getCitizenshipFrontEncodedImage()==null){
+                        throw new FieldNotEmpty("Please upload citizenship front image");
+                    }
+                    if (customer.getCitizenshipBackEncodedImage()==null){
+                        throw new FieldNotEmpty("Please upload citizenship back image");
+                    }
+                    FileOutputStream fos1 = new FileOutputStream(path.toString() + File.separator + "citizenshipFront");
+                    byte[] citizenFront = Base64.getMimeDecoder().decode(customer.getCitizenshipFrontEncodedImage());
+                    fos1.write(citizenFront);
+                    fos1.close();
 
-                FileOutputStream fos2 = new FileOutputStream(path.toString()+File.separator+"citizenshipBack");
-                byte[] citizenBack = Base64.getMimeDecoder().decode(customer.getCitizenshipBackEncodedImage());
-                fos2.write(citizenBack);
-                fos2.close();
-
-                if(customer.getPassportEncodedImage()!=null){
-
-                    FileOutputStream fos3 = new FileOutputStream(path.toString()+File.separator+"passport");
-                byte[] passport = Base64.getMimeDecoder().decode(customer.getPassportEncodedImage());
-                fos3.write(passport);
-                fos3.close();
+                    FileOutputStream fos2 = new FileOutputStream(path.toString() + File.separator + "citizenshipBack");
+                    byte[] citizenBack = Base64.getMimeDecoder().decode(customer.getCitizenshipBackEncodedImage());
+                    fos2.write(citizenBack);
+                    fos2.close();
+                } else if (customer.getDocumentType().equals("passport")) {
+                    if (customer.getPassportEncodedImage()==null){
+                        throw new FieldNotEmpty("Please upload passport image");
+                    }
+                    FileOutputStream fos3 = new FileOutputStream(path.toString() + File.separator + "passport");
+                    byte[] passport = Base64.getMimeDecoder().decode(customer.getPassportEncodedImage());
+                    fos3.write(passport);
+                    fos3.close();
                 }
-                FileOutputStream fos4 = new FileOutputStream(path.toString()+File.separator+"profile");
+                else {
+                    throw new FieldNotEmpty("Please select your document");
+                }
+                if (customer.getProfileEncodedImage()==null){
+                    throw new FieldNotEmpty("Please upload profile image");
+                }
+                FileOutputStream fos4 = new FileOutputStream(path.toString() + File.separator + "profile");
                 byte[] profile = Base64.getMimeDecoder().decode(customer.getProfileEncodedImage());
                 fos4.write(profile);
                 fos4.close();
 
-
-                customer.setCitizenshipFrontImagePath(relativePath+"/"+"citizenshipFront");
-                customer.setCitizenshipBackImagePath(relativePath+"/"+"citizenshipBack");
-                if(customer.getPassportEncodedImage()!=null) {
-                    customer.setPassportImagePath(relativePath + "/" + "passport");
+                if (customer.getDocumentType().equals("citizenship")) {
+                    customer.setCitizenshipFrontImagePath(relativePath + "/" + "citizenshipFront");
+                    customer.setCitizenshipBackImagePath(relativePath + "/" + "citizenshipBack");
                 }
+                else if (customer.getDocumentType().equals("passport")){
                     customer.setPassportImagePath(relativePath + "/" + "passport");
-
+            }
                 customer.setProfileImagePath(relativePath+"/"+"profile");
 
             } catch (Exception e) {
@@ -232,18 +244,24 @@ customer.setPermanentAddress(newCustomer.getPermanentAddress());
 
                 //Creating new directory for storing images
                 String absolutePath = System.getProperty("user.dir");
+                if(customer.get().getCitizenshipFrontImagePath()!=null) {
 
-                byte[] citizenshipFrontImg= FileUtils.readFileToByteArray(new File(absolutePath+customer.get().getCitizenshipFrontImagePath().toString()));
-                String citizenshipFrontEncodedImg= Base64.getEncoder().encodeToString(citizenshipFrontImg);
-                customer.get().setCitizenshipFrontEncodedImage(citizenshipFrontEncodedImg);
+                    byte[] citizenshipFrontImg = FileUtils.readFileToByteArray(new File(absolutePath + customer.get().getCitizenshipFrontImagePath().toString()));
+                    String citizenshipFrontEncodedImg = Base64.getEncoder().encodeToString(citizenshipFrontImg);
+                    customer.get().setCitizenshipFrontEncodedImage(citizenshipFrontEncodedImg);
+                }
+                if(customer.get().getCitizenshipBackImagePath()!=null) {
 
-                byte[] citizenshipBackImg= FileUtils.readFileToByteArray(new File(absolutePath+customer.get().getCitizenshipBackImagePath().toString()));
-                String citizenshipBackEncodedImg= Base64.getEncoder().encodeToString(citizenshipBackImg);
-                customer.get().setCitizenshipBackEncodedImage(citizenshipBackEncodedImg);
+                    byte[] citizenshipBackImg = FileUtils.readFileToByteArray(new File(absolutePath + customer.get().getCitizenshipBackImagePath().toString()));
+                    String citizenshipBackEncodedImg = Base64.getEncoder().encodeToString(citizenshipBackImg);
+                    customer.get().setCitizenshipBackEncodedImage(citizenshipBackEncodedImg);
+                }
 
-                byte[] passportImg= FileUtils.readFileToByteArray(new File(absolutePath+customer.get().getPassportImagePath().toString()));
-                String passportEncodedImg= Base64.getEncoder().encodeToString(passportImg);
-                customer.get().setPassportEncodedImage(passportEncodedImg);
+                        if(customer.get().getPassportImagePath()!=null) {
+                    byte[] passportImg= FileUtils.readFileToByteArray(new File(absolutePath+customer.get().getPassportImagePath().toString()));
+                    String passportEncodedImg= Base64.getEncoder().encodeToString(passportImg);
+                    customer.get().setPassportEncodedImage(passportEncodedImg);
+                }
 
                 byte[] profileImg= FileUtils.readFileToByteArray(new File(absolutePath+customer.get().getProfileImagePath().toString()));
                 String profileEncodedImg= Base64.getEncoder().encodeToString(profileImg);
@@ -283,15 +301,12 @@ return customerCustomerAccountDto;
         customer.setFatherName(customerDto.getFatherName());
         customer.setMotherName(customerDto.getMotherName());
         customer.setGrandFatherName(customerDto.getGrandFatherName());
+        customer.setDocumentType(customerDto.getDocumentType());
         customer.setCitizenshipNumber(customerDto.getCitizenshipNumber());
-        customer.setCitizenshipFrontImageName(customerDto.getCitizenshipFrontImageName());
         customer.setCitizenshipFrontEncodedImage(customerDto.getCitizenshipFrontEncodedImage());
-        customer.setCitizenshipBackImageName(customerDto.getCitizenshipBackImageName());
         customer.setCitizenshipBackEncodedImage(customerDto.getCitizenshipBackEncodedImage());
         customer.setPassportNumber(customerDto.getPassportNumber());
-        customer.setPassportImageName(customerDto.getPassportImageName());
         customer.setPassportEncodedImage(customerDto.getPassportEncodedImage());
-        customer.setProfileImageName(customerDto.getProfileImageName());
         customer.setProfileEncodedImage(customerDto.getProfileEncodedImage());
         customer.setCifId("R"+this.cifId());
         customer.setBranch(customerDto.getBranch());
@@ -336,6 +351,7 @@ customerDto.setPermanentAddress(permanentAddress);
         customerDto.setCitizenshipFrontEncodedImage((customer.getCitizenshipFrontEncodedImage()));
         customerDto.setCitizenshipBackImagePath(customer.getCitizenshipBackImagePath());
         customerDto.setCitizenshipBackEncodedImage(customer.getCitizenshipBackEncodedImage());
+        customerDto.setDocumentType(customer.getDocumentType());
         customerDto.setPassportNumber(customer.getPassportNumber());
         customerDto.setPassportImagePath(customer.getPassportImagePath());
         customerDto.setPassportEncodedImage(customer.getPassportEncodedImage());

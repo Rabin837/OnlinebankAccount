@@ -37,6 +37,8 @@ public class Customer {
     private String fatherName;
     private String motherName;
     private String grandFatherName;
+    private String documentType;
+
     private String citizenshipNumber;
     @Transient
     private String citizenshipFrontImageName;
