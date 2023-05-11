@@ -24,6 +24,13 @@ public class GlobalException {
     }
 
 
+    @ExceptionHandler(FieldNotEmpty.class)
+    @ResponseStatus(HttpStatus.OK)
+
+    public @ResponseBody ExceptionMessage FieldNotEmpty(FieldNotEmpty fieldNotEmpty){
+
+        return new ExceptionMessage(fieldNotEmpty.getMessage(),HttpStatus.BAD_REQUEST.value(), HttpStatus.BAD_REQUEST);
+    }
     @ExceptionHandler(AlreadyExist.class)
     @ResponseStatus(HttpStatus.OK)
 
