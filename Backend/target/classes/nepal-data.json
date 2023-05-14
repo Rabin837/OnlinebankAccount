@@ -1,0 +1,3404 @@
+{
+    "name": "Nepal",
+    "states": [
+        {
+            "name": "PROVINCE NO. 1",
+            "districts": [
+                {
+                    "name": "DHANKUTA",
+                    "municipalities": [
+                        {
+                            "name": "CHAUBISE",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHHATHAR JORPATI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DHANKUTA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KHALSA CHHINTANG SHAHIDBHUMI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAHALAXMI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "PAKHRIBAS",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SANGURIGADHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "ILAM",
+                    "municipalities": [
+                        {
+                            "name": "CHULACHULI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DEUMAI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "FAKPHOKTHUM",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "ILAM",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAIJOGMAI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MANGSEBUNG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "RONG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SANDAKPUR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SURYODAYA",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "JHAPA",
+                    "municipalities": [
+                        {
+                            "name": "ARJUNDHARA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BARHADASHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BHADRAPUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BIRTAMOD",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BUDDHASHANTI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DAMAK",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "GAURADHAHA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "GAURIGANJ",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "HALDIBARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "JHAPA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KACHANKAWAL",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KAMAL",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KANKAI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MECHINAGAR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SHIVASATAXI",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "KHOTANG",
+                    "municipalities": [
+                        {
+                            "name": "AINSELUKHARK",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BARAHAPOKHARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DIPRUNG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "HALESI TUWACHUNG",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "JANTEDHUNGA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KEPILASAGADHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KHOTEHANG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "LAMIDANDA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "RUPAKOT MAJHUWAGADHI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SAKELA",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "MORANG",
+                    "municipalities": [
+                        {
+                            "name": "BELBARI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BIRATNAGAR",
+                            "type": "METROPOLITAN"
+                        },
+                        {
+                            "name": "BUDHIGANGA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DHANPALTHAN",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GRAMTHAN",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "JAHADA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KANEPOKHARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KATAHARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KERABARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "LETANG",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MIKLAJUNG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PATAHRI SHANISHCHARE",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "RANGELI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "RATUWAMAI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SUNDARHARAICHA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SUNWARSHI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "URALABARI",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "OKHALDHUNGA",
+                    "municipalities": [
+                        {
+                            "name": "CHAMPADEVI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHISANKHUGADHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KHIJIDEMBA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "LIKHU",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MANEBHANJYANG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MOLUNG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SIDDHICHARAN",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SUNKOSHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "PANCHTHAR",
+                    "municipalities": [
+                        {
+                            "name": "FALELUNG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "FALGUNANDA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "HILIHANG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KUMMAYAK",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MIKLAJUNG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PHIDIM",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "TUMBEWA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "YANGWARAK",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "SANKHUWASABHA",
+                    "municipalities": [
+                        {
+                            "name": "BHOTKHOLA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHAINPUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHICHILA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DHARMADEVI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KHANDBARI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MADI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAKALU",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PANCHAKHAPAN",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SABHAPOKHARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SILICHONG",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "SOLUKHUMBU",
+                    "municipalities": [
+                        {
+                            "name": "DUDHKAUSHIKA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DUDHKOSHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KHUMBU PASANGLAHMU",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "LIKHUPIKE",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAHAKULUNG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "NECHASALYAN",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SOLUDUDHAKUNDA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SOTANG",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "SUNSARI",
+                    "municipalities": [
+                        {
+                            "name": "BARAH",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BARJU",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BHOKRAHA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DEWANGANJ",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DHARAN",
+                            "type": "SUB_METROPOLITAN"
+                        },
+                        {
+                            "name": "DUHABI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "GADHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "HARINAGARA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "INARUWA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "ITAHARI",
+                            "type": "SUB_METROPOLITAN"
+                        },
+                        {
+                            "name": "KOSHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "RAMDHUNI",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "TAPLEJUNG",
+                    "municipalities": [
+                        {
+                            "name": "AATHRAI TRIBENI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAIWAKHOLA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MERINGDEN",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MIKWAKHOLA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PHAKTANGLUNG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PHUNGLING",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SIDINGBA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SIRIJANGHA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "YANGWARAK",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "TERHATHUM",
+                    "municipalities": [
+                        {
+                            "name": "AATHRAI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHHATHAR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "LALIGURANS",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MENCHAYAM",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MYANGLUNG",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "PHEDAP",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "UDAYAPUR",
+                    "municipalities": [
+                        {
+                            "name": "BELAKA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHAUDANDIGADHI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KATARI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "RAUTAMAI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SUNKOSHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TAPLI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TRIYUGA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "UDAYAPURGADHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "PROVINCE NO. 2",
+            "districts": [
+                {
+                    "name": "SAPTARI",
+                    "municipalities": [
+                        {
+                            "name": "AGNISAIR KRISHNASAVARAN",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BELHI CHAPENA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BISHNUPUR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BODEBARSAIEN",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHHINNAMASTA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DAKNESHWORI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "HANUMANNAGAR KANKALANI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KANCHANRUP",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KHADAK",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAHADEVA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "RAJBIRAJ",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "RUPANI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SAPTAKOSHI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SHAMBHUNATH",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SURUNGA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "TILATHI KOILADI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TIRAHUT",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "WALAN BIHUL",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "SIRAHA",
+                    "municipalities": [
+                        {
+                            "name": "ARNAMA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "AURAHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BARIYARPATTI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BHAGAWANPUR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BISHNUPUR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DHANGADHIMAI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "GOLBAZAR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KALYANPUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KARJANHA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "LAHAN",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "LAXMIPUR PATARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MIRCHAIYA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "NARAHA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "NAVARAJPUR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SAKHUWANANKARKATTI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SIRAHA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SUKHIPUR",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "DHANUSA",
+                    "municipalities": [
+                        {
+                            "name": "AURAHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BATESHWOR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BIDEHI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHHIRESHWORNATH",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "DHANAUJI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DHANUSADHAM",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "GANESHMAN CHARNATH",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "HANSAPUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "JANAKNANDINI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "JANAKPUR",
+                            "type": "SUB_METROPOLITAN"
+                        },
+                        {
+                            "name": "KAMALA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "LAKSHMINIYA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MITHILA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MITHILA BIHARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MUKHIYAPATTI MUSAHARNIYA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "NAGARAIN",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SABAILA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SAHIDNAGAR",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "MAHOTTARI",
+                    "municipalities": [
+                        {
+                            "name": "AURAHI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BALWA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BARDIBAS",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BHANGAHA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "EKDANRA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GAUSHALA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "JALESWAR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "LOHARPATTI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAHOTTARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MANRA SISAWA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MATIHANI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "PIPRA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "RAMGOPALPUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SAMSI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SONAMA",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "SARLAHI",
+                    "municipalities": [
+                        {
+                            "name": "BAGMATI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BALARA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BARAHATHAWA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BASBARIYA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BISHNU",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BRAHMAPURI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHAKRAGHATTA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHANDRANAGAR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DHANKAUL",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GODAITA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "HARIPUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "HARIPURWA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "HARIWAN",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "ISHWORPUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KABILASI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KAUDENA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "LALBANDI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MALANGWA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "PARSA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "RAMNAGAR",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "BARA",
+                    "municipalities": [
+                        {
+                            "name": "ADARSH KOTWAL",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BARAGADHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BISHRAMPUR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DEVTAL",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "JITPUR SIMARA",
+                            "type": "SUB_METROPOLITAN"
+                        },
+                        {
+                            "name": "KALAIYA",
+                            "type": "SUB_METROPOLITAN"
+                        },
+                        {
+                            "name": "KARAIYAMAI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KOLHABI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAHAGADHIMAI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "NIJGADH",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "PACHARAUTA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "PARWANIPUR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PHETA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PRASAUNI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SIMROUNGADH",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SUWARNA",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "PARSA",
+                    "municipalities": [
+                        {
+                            "name": "BAHUDARAMAI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BINDABASINI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BIRGUNJ",
+                            "type": "METROPOLITAN"
+                        },
+                        {
+                            "name": "CHHIPAHARMAI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DHOBINI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "JAGARNATHPUR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "JIRA BHAWANI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KALIKAMAI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PAKAHAMAINPUR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PARSAGADI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "PATERWASUGAULI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "POKHARIYA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SAKHUWA PRASAUNI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "THORI",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "RAUTAHAT",
+                    "municipalities": [
+                        {
+                            "name": "BAUDHIMAI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BRINDABAN",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHANDRAPUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "DEVAHI GONAHI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "DURGA BHAGAWATI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GADHIMAI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "GARUDA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "GAUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "GUJARA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "ISHANATH",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KATAHARIYA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MADAV NARAYAN",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAULAPUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "PAROHA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "PHATUWA BIJAYAPUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "RAJDEVI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "RAJPUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "YAMUNAMAI",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "BAGMATI PRADESH",
+            "districts": [
+                {
+                    "name": "SINDHULI",
+                    "municipalities": [
+                        {
+                            "name": "DUDHOULI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "GHANGLEKH",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GOLANJOR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "HARIHARPURGADHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KAMALAMAI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MARIN",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PHIKKAL",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SUNKOSHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TINPATAN",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "RAMECHHAP",
+                    "municipalities": [
+                        {
+                            "name": "DORAMBA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GOKULGANGA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KHADADEVI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "LIKHU",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MANTHALI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "RAMECHHAP",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SUNAPATI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "UMAKUNDA",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "DOLAKHA",
+                    "municipalities": [
+                        {
+                            "name": "BAITESHWOR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BHIMESHWOR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BIGU",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GAURISHANKAR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "JIRI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KALINCHOK",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MELUNG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SAILUNG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TAMAKOSHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "BHAKTAPUR",
+                    "municipalities": [
+                        {
+                            "name": "BHAKTAPUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHANGUNARAYAN",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MADHYAPUR THIMI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SURYABINAYAK",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "DHADING",
+                    "municipalities": [
+                        {
+                            "name": "BENIGHAT RORANG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DHUNIBESI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "GAJURI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GALCHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GANGAJAMUNA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "JWALAMUKHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KHANIYABASH",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "NETRAWATI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "NILAKANTHA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "RUBI VALLEY",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SIDDHALEK",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "THAKRE",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TRIPURASUNDARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "KATHMANDU",
+                    "municipalities": [
+                        {
+                            "name": "BUDHANILAKANTHA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHANDRAGIRI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "DAKSHINKALI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "GOKARNESHWOR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KAGESHWORI MANAHARA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KATHMANDU",
+                            "type": "METROPOLITAN"
+                        },
+                        {
+                            "name": "KIRTIPUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "NAGARJUN",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SHANKHARAPUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "TARAKESHWAR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "TOKHA",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "KAVREPALANCHOK",
+                    "municipalities": [
+                        {
+                            "name": "BANEPA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BETHANCHOWK",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BHUMLU",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHAURIDEURALI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DHULIKHEL",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KHANIKHOLA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAHABHARAT",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MANDANDEUPUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "NAMOBUDDHA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "PANAUTI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "PANCHKHAL",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "ROSHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TEMAL",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "LALITPUR",
+                    "municipalities": [
+                        {
+                            "name": "BAGMATI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GODAWARI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KONJYOSOM",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "LALITPUR",
+                            "type": "METROPOLITAN"
+                        },
+                        {
+                            "name": "MAHALAXMI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAHANKAL",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "NUWAKOT",
+                    "municipalities": [
+                        {
+                            "name": "BELKOTGADHI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BIDUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "DUPCHESHWAR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KAKANI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KISPANG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "LIKHU",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MEGHANG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PANCHAKANYA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SHIVAPURI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SURYAGADHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TADI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TARKESHWAR",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "RASUWA",
+                    "municipalities": [
+                        {
+                            "name": "GOSAIKUNDA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KALIKA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "NAUKUNDA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PARBATIKUNDA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "UTTARGAYA",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "SINDHUPALCHOK",
+                    "municipalities": [
+                        {
+                            "name": "BALEFI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BARHABISE",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BHOTEKOSHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHAUTARA SANGACHOKGADHI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "HELAMBU",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "INDRAWATI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "JUGAL",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "LISANKHU PAKHAR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MELAMCHI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "PANCHPOKHARI THANGPAL",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SUNKOSHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TRIPURASUNDARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "CHITWAN",
+                    "municipalities": [
+                        {
+                            "name": "BHARATPUR",
+                            "type": "METROPOLITAN"
+                        },
+                        {
+                            "name": "ICHCHHYAKAMANA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KALIKA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KHAIRAHANI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MADI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "RAPTI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "RATNANGAR",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "MAKWANPUR",
+                    "municipalities": [
+                        {
+                            "name": "BAGMATI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BAKAIYA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BHIMPHEDI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "HETAUDA",
+                            "type": "SUB_METROPOLITAN"
+                        },
+                        {
+                            "name": "INDRASAROWAR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KAILASH",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAKAWANPURGADHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MANAHARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "RAKSIRANG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "THAHA",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "GANDAKI PRADESH",
+            "districts": [
+                {
+                    "name": "BAGLUNG",
+                    "municipalities": [
+                        {
+                            "name": "BADIGAD",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BAGLUNG",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BARENG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DHORPATAN",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "GALKOT",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "JAIMUNI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KANTHEKHOLA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "NISIKHOLA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TAMAN KHOLA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TARA KHOLA",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "GORKHA",
+                    "municipalities": [
+                        {
+                            "name": "AARUGHAT",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "AJIRKOT",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BHIMSEN",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHUM NUBRI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DHARCHE",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GANDAKI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GORKHA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "PALUNGTAR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SAHID LAKHAN",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SIRANCHOK",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SULIKOT",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "KASKI",
+                    "municipalities": [
+                        {
+                            "name": "ANNAPURNA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MACHHAPUCHCHHRE",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MADI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "POKHARA LEKHNATH",
+                            "type": "METROPOLITAN"
+                        },
+                        {
+                            "name": "RUPA",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "LAMJUNG",
+                    "municipalities": [
+                        {
+                            "name": "BESISHAHAR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "DORDI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DUDHPOKHARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KWHOLASOTHAR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MADHYANEPAL",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MARSYANGDI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "RAINAS",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SUNDARBAZAR",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "MANANG",
+                    "municipalities": [
+                        {
+                            "name": "CHAME",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "NARPHU",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "NASHONG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "NESHYANG",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "MUSTANG",
+                    "municipalities": [
+                        {
+                            "name": "BARHAGAUN MUKTIKSHETRA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DALOME",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GHARAPJHONG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "LOMANTHANG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "THASANG",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "MYAGDI",
+                    "municipalities": [
+                        {
+                            "name": "ANNAPURNA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BENI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "DHAULAGIRI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MALIKA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MANGALA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "RAGHUGANGA",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "NAWALPUR",
+                    "municipalities": [
+                        {
+                            "name": "BINAYEE TRIVENI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BULINGTAR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BUNGDIKALI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DEVCHULI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "GAIDAKOT",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "HUPSEKOT",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KAWASETI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MADHYABINDU",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KAWASOTI",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "PARBAT",
+                    "municipalities": [
+                        {
+                            "name": "BIHADI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "JALJALA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KUSHMA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAHASHILA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MODI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PAINYU",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PHALEBAS",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "SYANGJA",
+                    "municipalities": [
+                        {
+                            "name": "AANDHIKHOLA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "ARJUNCHAUPARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BHIRKOT",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BIRUWA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHAPAKOT",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "GALYANG",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "HARINAS",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KALIGANDAGI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PHEDIKHOLA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PUTALIBAZAR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "WALING",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "TANAHUN",
+                    "municipalities": [
+                        {
+                            "name": "ANBUKHAIRENI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BANDIPUR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BHANU",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BHIMAD",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BYAS",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "DEVGHAT",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GHIRING",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MYAGDE",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "RHISHING",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SHUKLAGANDAKI",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "PROVINCE NO. 5",
+            "districts": [
+                {
+                    "name": "KAPILVASTU",
+                    "municipalities": [
+                        {
+                            "name": "BANGANGA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BIJAYANAGAR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BUDDHABHUMI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KAPILBASTU",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KRISHNANAGAR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAHARAJGUNJ",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAYADEVI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SHIVARAJ",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SUDDHODHAN",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "YASHODHARA",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "PARASI",
+                    "municipalities": [
+                        {
+                            "name": "BARDAGHAT",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "PALHI NANDAN",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PRATAPPUR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "RAMGRAM",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SARAWAL",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SUNWAL",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SUSTA",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "RUPANDEHI",
+                    "municipalities": [
+                        {
+                            "name": "BUTWAL",
+                            "type": "SUB_METROPOLITAN"
+                        },
+                        {
+                            "name": "DEVDAHA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "GAIDAHAWA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KANCHAN",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KOTAHIMAI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "LUMBINI SANSKRITIK",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MARCHAWARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAYADEVI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "OMSATIYA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "ROHINI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SAINAMAINA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SAMMARIMAI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SIDDHARTHANAGAR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SIYARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SUDHDHODHAN",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TILOTTAMA",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "ARGHAKHANCHI",
+                    "municipalities": [
+                        {
+                            "name": "BHUMEKASTHAN",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHHATRADEV",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MALARANI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PANINI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SANDHIKHARKA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SITGANGA",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "GULMI",
+                    "municipalities": [
+                        {
+                            "name": "CHANDRAKOT",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHATRAKOT",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DHURKOT",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GULMIDARBAR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "ISMA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KALIGANDAKI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MADANE",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MALIKA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MUSIKOT",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "RESUNGA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "RURU",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SATYAWATI",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "PALPA",
+                    "municipalities": [
+                        {
+                            "name": "BAGNASKALI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MATHAGADHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "NISDI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PURBAKHOLA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "RAINADEVI CHHAHARA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "RAMBHA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "RAMPUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "RIBDIKOT",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TANSEN",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "TINAU",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "DANG",
+                    "municipalities": [
+                        {
+                            "name": "BABAI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BANGLACHULI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DANGISHARAN",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GADHAWA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GHORAHI",
+                            "type": "SUB_METROPOLITAN"
+                        },
+                        {
+                            "name": "LAMAHI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "RAJPUR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "RAPTI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SHANTINAGAR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TULSIPUR",
+                            "type": "SUB_METROPOLITAN"
+                        }
+                    ]
+                },
+                {
+                    "name": "PYUTHAN",
+                    "municipalities": [
+                        {
+                            "name": "AYIRABATI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GAUMUKHI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "JHIMRUK",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MALLARANI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MANDAVI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "NAUBAHINI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PYUTHAN",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SARUMARANI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SWORGADWARY",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "ROLPA",
+                    "municipalities": [
+                        {
+                            "name": "DUIKHOLI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "LUNGRI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MADI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "ROLPA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "RUNTIGADI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SUKIDAHA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SUNCHHAHARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SUWARNABATI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "THAWANG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TRIBENI",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "EASTERN RUKUM",
+                    "municipalities": [
+                        {
+                            "name": "BHUME",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PUTHA UTTARGANGA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SISNE",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "BANKE",
+                    "municipalities": [
+                        {
+                            "name": "BAIJANATH",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DUDUWA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "JANKI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KHAJURA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KOHALPUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "NARAINAPUR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "NEPALGUNJ",
+                            "type": "SUB_METROPOLITAN"
+                        },
+                        {
+                            "name": "RAPTI SONARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "BARDIYA",
+                    "municipalities": [
+                        {
+                            "name": "BADHAIYATAL",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BANSGADHI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BARBARDIYA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "GERUWA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GULARIYA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MADHUWAN",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "RAJAPUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "THAKURBABA",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "palpa",
+                    "municipalities": []
+                }
+            ]
+        },
+        {
+            "name": "KARNALI PRADESH",
+            "districts": [
+                {
+                    "name": "WESTERN RUKUM",
+                    "municipalities": [
+                        {
+                            "name": "AATHBISKOT",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BANFIKOT",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHAURJAHARI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MUSIKOT",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SANI BHERI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TRIBENI",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "SALYAN",
+                    "municipalities": [
+                        {
+                            "name": "BAGCHAUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BANGAD KUPINDE",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHHATRESHWORI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DARMA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DHORCHAUR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KALIMATI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KAPURKOT",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KUMAKHMALIKA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SHARADA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "TRIBENI",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "DOLPA",
+                    "municipalities": [
+                        {
+                            "name": "CHHARKA TANGSONG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DOLPO BUDDHA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "JAGADULLA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KAIKE",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MUDKECHULA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SHEY PHOKSUNDO",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "THULI BHERI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "TRIPURASUNDARI",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "HUMLA",
+                    "municipalities": [
+                        {
+                            "name": "ADANCHULI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHANKHELI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KHARPUNATH",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "NAMKHA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SARKEGAD",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SIMKOT",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TANJAKOT",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "JUMLA",
+                    "municipalities": [
+                        {
+                            "name": "CHANDANNATH",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "GUTHICHAUR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "HIMA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KANAKASUNDARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PATRASI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SINJA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TATOPANI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TILA",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "KALIKOT",
+                    "municipalities": [
+                        {
+                            "name": "KALIKA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KHANDACHAKRA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAHAWAI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "NARAHARINATH",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PACHALJHARANA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PALATA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "RASKOT",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SANNI TRIBENI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TILAGUFA",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "MUGU",
+                    "municipalities": [
+                        {
+                            "name": "CHHAYANATH RARA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KHATYAD",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MUGUM KARMARONG",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SORU",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "SURKHET",
+                    "municipalities": [
+                        {
+                            "name": "BARAHTAL",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BHERIGANGA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BIRENDRANAGAR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHAUKUNE",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHINGAD",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GURBHAKOT",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "LEKBESI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "PANCHPURI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SIMTA",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "DAILEKH",
+                    "municipalities": [
+                        {
+                            "name": "AATHABIS",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BHAGAWATIMAI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BHAIRABI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHAMUNDA BINDRASAINI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "DULLU",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "DUNGESHWOR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GURANS",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAHABU",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "NARAYAN",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "NAUMULE",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "THANTIKANDH",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "JAJARKOT",
+                    "municipalities": [
+                        {
+                            "name": "BAREKOT",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BHERI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHHEDAGAD",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "JUNICHANDE",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KUSE",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SHIWALAYA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TRIBENI NALAGAD",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "SUDURPASHCHIM PRADESH",
+            "districts": [
+                {
+                    "name": "KAILALI",
+                    "municipalities": [
+                        {
+                            "name": "BARDAGORIYA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BHAJANI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHURE",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DHANGADHI",
+                            "type": "SUB_METROPOLITAN"
+                        },
+                        {
+                            "name": "GAURIGANGA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "GHODAGHODI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "GODAWARI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "JANAKI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "JOSHIPUR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KAILARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "LAMKICHUHA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MOHANYAL",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TIKAPUR",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "ACHHAM",
+                    "municipalities": [
+                        {
+                            "name": "BANNIGADHI JAYAGADH",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHAURPATI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DHAKARI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KAMALBAZAR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MANGALSEN",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MELLEKH",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PANCHADEWAL BINAYAK",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "RAMAROSHAN",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SANPHEBAGAR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "TURMAKHAD",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "DOTI",
+                    "municipalities": [
+                        {
+                            "name": "ADHARSHA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BADIKEDAR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BOGTAN",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DIPAYAL SILGADHI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "JORAYAL",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "K I SINGH",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PURBICHAUKI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SAYAL",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SHIKHAR",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "BAJHANG",
+                    "municipalities": [
+                        {
+                            "name": "BITHADCHIR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BUNGAL",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHABISPATHIVERA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DURGATHALI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "JAYA PRITHIVI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KANDA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KEDARSEU",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "KHAPTADCHHANNA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MASTA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SURMA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TALKOT",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "THALARA",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "BAJURA",
+                    "municipalities": [
+                        {
+                            "name": "BADIMALIKA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BUDHIGANGA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BUDHINANDA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "CHHEDEDAHA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GAUMUL",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "HIMALI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PANDAV GUPHA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SWAMI KARTIK",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "TRIBENI",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "KANCHANPUR",
+                    "municipalities": [
+                        {
+                            "name": "BEDKOT",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BELAURI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BELDANDI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BHIMDATTA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "KRISHNAPUR",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "LALJHANDI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAHAKALI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "PUNARBAS",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SUKLAPHANTA",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "DADELDHURA",
+                    "municipalities": [
+                        {
+                            "name": "AJAYMERU",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "ALITAL",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "AMARGADHI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "BHAGESHWAR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "GANAYAPDHURA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "NAWADURGA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PARASHURAM",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "BAITADI",
+                    "municipalities": [
+                        {
+                            "name": "DASHARATHCHANDA",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "DILASAINI",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DOGADAKEDAR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MELAULI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "PANCHESHWAR",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "PATAN",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "PURCHAUDI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "SHIVANATH",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SIGAS",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SURNAYA",
+                            "type": "RURAL_MUNICIPALITY"
+                        }
+                    ]
+                },
+                {
+                    "name": "DARCHULA",
+                    "municipalities": [
+                        {
+                            "name": "APIHIMAL",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "BYAS",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "DUNHU",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "LEKAM",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MAHAKALI",
+                            "type": "MUNICIPALITY"
+                        },
+                        {
+                            "name": "MALIKARJUN",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "MARMA",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "NAUGAD",
+                            "type": "RURAL_MUNICIPALITY"
+                        },
+                        {
+                            "name": "SHAILYASHIKHAR",
+                            "type": "MUNICIPALITY"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
