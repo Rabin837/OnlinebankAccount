@@ -1,73 +1,85 @@
 <router-outlet></router-outlet>
 
+<div class=" mb-3" *ngIf="activatedRoute.children.length === 0"
+  style="width: 95%; margin-left: auto; margin-right: auto;">
+  <!-- <div class="text-end">
+    <mat-form-field appearance="outline">
+      <mat-label>Search customer</mat-label>
+      <input matInput (keyup)="filter($event)">
+    </mat-form-field>
+  </div> -->
+  <div class="input__container text-end">
+    <div class="shadow__input"></div>
+    <button class="input__button__shadow">
+      <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20px" width="20px">
+        <path
+          d="M4 9a5 5 0 1110 0A5 5 0 014 9zm5-7a7 7 0 104.2 12.6.999.999 0 00.093.107l3 3a1 1 0 001.414-1.414l-3-3a.999.999 0 00-.107-.093A7 7 0 009 2z"
+          fill-rule="evenodd" fill="#17202A"></path>
+      </svg>
+    </button>
+    <input type="text" name="text" class="input__search" placeholder="Search customers" (keyup)="filter($event)">
+  </div>
 
-
-<div class=" mb-3" *ngIf="activatedRoute.children.length === 0" style="width: 95%; margin-left: auto; margin-right: auto;" >
-  <div class="text-end">
-  <mat-form-field appearance="outline"  >
-    <mat-label>Search customer</mat-label>
-    <input matInput   (keyup)="filter($event)">
-  </mat-form-field>
-</div>
   <h2 class="p-3 mb-2  text-center bg-primary text-white">Customer List</h2>
 
   <table mat-table matSort class="customer-table  mat-elevation-z8" [dataSource]="dataSource" *ngIf="customers">
-    <ng-container  matColumnDef="serialNumber">
+    <ng-container matColumnDef="serialNumber">
       <mat-header-cell class="text-break" *matHeaderCellDef>S.N.</mat-header-cell>>
-      <mat-cell class="text-break" *matCellDef="let customer">{{customers.indexOf(customer)+1}}</mat-cell>>
+      <mat-cell class="table-content" *matCellDef="let customer">{{customers.indexOf(customer)+1}}</mat-cell>>
     </ng-container>
     <ng-container matColumnDef="name">
-      <mat-header-cell  mat-sort-header class="text-break" *matHeaderCellDef>Name</mat-header-cell>>
-      <mat-cell class="text-break" *matCellDef="let customer">{{customer.name}}</mat-cell>>
+      <mat-header-cell mat-sort-header class="text-break" *matHeaderCellDef>Name</mat-header-cell>>
+      <mat-cell class="table-content" *matCellDef="let customer">{{customer.name}}</mat-cell>>
     </ng-container>
     <ng-container matColumnDef="phone">
       <mat-header-cell class="text-break" *matHeaderCellDef>Phone No.</mat-header-cell>>
-      <mat-cell class="text-break" *matCellDef="let customer" style="white-space: nowrap">{{customer.phone}}</mat-cell>>
+      <mat-cell class="table-content" *matCellDef="let customer"
+        style="white-space: nowrap">{{customer.phone}}</mat-cell>>
     </ng-container>
     <ng-container matColumnDef="email">
       <mat-header-cell *matHeaderCellDef style="flex: none; width: 250px;">Email Address</mat-header-cell>>
-      <mat-cell *matCellDef="let customer" style="flex: none; width: 250px;">{{customer.email}}</mat-cell>>
+      <mat-cell class="table-content" *matCellDef="let customer"
+        style="flex: none; width: 250px;">{{customer.email}}</mat-cell>>
     </ng-container>
     <ng-container matColumnDef="nationality">
       <mat-header-cell class="text-break" *matHeaderCellDef>Nationality</mat-header-cell>>
-      <mat-cell class="text-break" *matCellDef="let customer">{{customer.nationality}}</mat-cell>>
+      <mat-cell class="table-content" *matCellDef="let customer">{{customer.nationality}}</mat-cell>>
     </ng-container>
     <ng-container matColumnDef="cifId">
       <mat-header-cell class="text-break" *matHeaderCellDef>CIF Id</mat-header-cell>>
-      <mat-cell class="text-break" *matCellDef="let customer">{{customer.cifId}}</mat-cell>>
+      <mat-cell class="table-content" *matCellDef="let customer">{{customer.cifId}}</mat-cell>>
     </ng-container>
 
     <ng-container matColumnDef="branch">
       <mat-header-cell class="text-break" *matHeaderCellDef>Branch</mat-header-cell>>
-      <mat-cell class="text-break" *matCellDef="let customer">{{customer.branch}}</mat-cell>>
+      <mat-cell class="table-content" *matCellDef="let customer">{{customer.branch}}</mat-cell>>
     </ng-container>
     <ng-container matColumnDef="account">
       <mat-header-cell class="text-break" *matHeaderCellDef>Account</mat-header-cell>
-      <mat-cell *matCellDef="let customer">
-        <button class="btn bg-secondary text-white"
-          routerLink="customer-account-list/{{customer.customerId}}">
+      <mat-cell class="table-content" *matCellDef="let customer">
+        <button class="btn bg-secondary text-white" routerLink="customer-account-list/{{customer.customerId}}">
           <mat-icon>account_circle</mat-icon>
-        </button>        
-      </mat-cell>
-    </ng-container>    
-    <ng-container matColumnDef="customerDetail">
-      <mat-header-cell  *matHeaderCellDef>Action</mat-header-cell>>
-      <mat-cell *matCellDef="let customer">
-        <div>
-          <button mat-icon-button class="text-primary " (click)="redirectByCifId(customer.cifId)">
-            <mat-icon >visibility</mat-icon>
-          </button>
-        <button mat-icon-button class="text-success "  (click)="openUpdateCustomer(customer.customerId)">
-          <mat-icon>edit</mat-icon>
         </button>
-        <button mat-icon-button class="text-danger " (click)="deleteCustomer(customer.customerId)">
-          <mat-icon>delete</mat-icon>
-      </button>
-      </div>
       </mat-cell>
     </ng-container>
-    
-    <mat-header-row *matHeaderRowDef="displayedColumns" style="background-color: lightgray;"></mat-header-row>
+    <ng-container matColumnDef="customerDetail">
+      <mat-header-cell *matHeaderCellDef>Action</mat-header-cell>>
+      <mat-cell class="table-content" *matCellDef="let customer">
+        <div>
+          <button mat-icon-button class="text-primary " (click)="redirectByCifId(customer.cifId)">
+            <mat-icon>visibility</mat-icon>
+          </button>
+          <button mat-icon-button class="text-success " (click)="openUpdateCustomer(customer.customerId)">
+            <mat-icon>edit</mat-icon>
+          </button>
+          <!-- <button mat-icon-button class="text-danger " (click)="deleteCustomer(customer.customerId)">
+            <mat-icon>delete</mat-icon>
+          </button> -->
+        </div>
+      </mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns" style="background-color: rgb(67, 187, 181);"></mat-header-row>
     <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
 
   </table>
