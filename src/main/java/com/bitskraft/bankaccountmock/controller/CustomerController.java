@@ -34,8 +34,6 @@ public class CustomerController {
     @PostMapping("add")
     public ResponseEntity<BaseResponse> add(@RequestBody @Valid  CustomerDto customerDto) {
     return ResponseEntity.ok(this.customerServices.addCustomer(customerDto));
-
-
     }
     //finding single customer
     @GetMapping("find/{customerId}")
